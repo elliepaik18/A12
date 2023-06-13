@@ -2,3 +2,9 @@ git clone https://github.com/Vision-CAIR/MiniGPT-4.git
 cd MiniGPT-4
 conda env create -f environment.yml
 conda activate minigpt4
+
+git lfs install
+git clone https://huggingface.co/lmsys/vicuna-13b-delta-v0  # more powerful, need at least 24G gpu memory
+# or
+git clone https://huggingface.co/lmsys/vicuna-7b-delta-v0  # smaller, need 12G gpu memor
+
